@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('ssApp', [
+  .module('ShearmanApp', [
     'ngAnimate',
     'ngRoute',
     'ngSanitize',

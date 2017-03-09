@@ -4,6 +4,12 @@
     angular.module('ssWidgets')
         .component('ssWeather', component);
 
-    var component = {};
+    var component = {
+        controller: Controller
+    };
+
+    function Controller() {
+
+    }
 
 })();

@@ -12,7 +12,7 @@
     "angular-mocks": "^1.4.0"
   },
   "appPath": "app",
-  "moduleName": "ssDashboard",
+  "moduleName": "ShearmanApp",
   "overrides": {
     "bootstrap": {
       "main": [

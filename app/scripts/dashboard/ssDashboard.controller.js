@@ -2,9 +2,9 @@
     'use strict';
 
     angular.module('ssDashboard')
-        .controller('ssDashboardController', controller);
+        .controller('ssDashboardController', Controller);
 
-    function controller($scope) {
+    function Controller($scope) {
 
     }
 

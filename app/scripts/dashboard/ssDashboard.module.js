@@ -1,7 +1,7 @@
 (function() {
     'use strict';
 
-    angular.module('ssDashboard', ['ssWidgets']);
+    angular.module('ssDashboard', []);
 
 
 })();

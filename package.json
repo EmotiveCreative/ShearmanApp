@@ -3,9 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "local-web-server": "^1.2.6"
+    "express": "^4.15.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0"
   },
   "scripts": {
-    "start": "ws"
+    "start": "DEBUG=express:* node server.js"
   }
 }
