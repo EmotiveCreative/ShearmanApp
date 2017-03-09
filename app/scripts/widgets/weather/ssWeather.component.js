@@ -8,8 +8,8 @@
         controller: Controller
     };
 
-    function Controller() {
-
+    function Controller($scope, ssWeatherDataService) {
+        
     }
 
 })();
