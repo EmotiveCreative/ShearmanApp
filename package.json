@@ -1,0 +1,11 @@
+{
+  "name": "ssdashboard",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "local-web-server": "^1.2.6"
+  },
+  "scripts": {
+    "start": "ws"
+  }
+}
