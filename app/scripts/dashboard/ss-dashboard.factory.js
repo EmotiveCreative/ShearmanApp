@@ -3,11 +3,12 @@
 
     angular.module('ssDashboard')
         .factory('ssDashboardDataService', ssDashboardDataService);
-
-    function ssDashboardDataService() {
+        
+    function ssDashboardDataService($http) {
         var service = {
             getDashboardUserData: getDashboardUserData
         };
+        return service;
 
         function getDashboardUserData() {
             return {
@@ -32,9 +33,7 @@
                         }        
                     }
                 ]
-            }
+            };
         }
     }
-}
-
 })();

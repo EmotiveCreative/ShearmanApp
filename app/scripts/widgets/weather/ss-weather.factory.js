@@ -11,9 +11,9 @@
 
         return service;
 
-        function getWeatherData(cityName) {
-            var url = 'api.openweathermap.org/data/2.5/weather?q=' + cityName + 
-            '&APPID=41eda6222591b5541c36c2cc1ebfeb4c';
+        function getWeatherData(cityIds) {
+            var url = 'http://api.openweathermap.org/data/2.5/group?id=' + cityIds.join(',') + 
+            '&APPID=41eda6222591b5541c36c2cc1ebfeb4c&units=imperial';
             return $http.post(url).then();
         }
 

@@ -16,7 +16,7 @@
     });
 
     gulp.task('watch-sass', function() {
-        gulp.watch('app/styles/scss/', ['compile-sass']);
+        gulp.watch('app/styles/scss/**/*.scss', ['compile-sass']);
     });
 
 })();

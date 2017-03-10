@@ -18,9 +18,7 @@ angular
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: '/scripts/dashboard/ssDashboard.html',
-        controller: 'ssDashboardController',
-        controllerAs: 'ssDashboard'
+        template: '<ss-dashboard></ss-dashboard>',
       })
       .otherwise({
         redirectTo: '/'
