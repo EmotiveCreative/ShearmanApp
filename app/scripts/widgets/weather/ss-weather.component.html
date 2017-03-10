@@ -4,7 +4,7 @@
             <h1 class="text-center">{{model.name}}</h1>
             <div class="row">
                 <div class="col-md-4 col-md-offset-2">
-                    <img src="/images/003-sun.svg">
+                    <img src="{{model.imageUrl}}">
                 </div>
                 <div class="col-md-6">
                     <h2>{{model.main.temp | number:0}}&#8457;</h2>
@@ -12,7 +12,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Min:{{model.main.temp_min | number:0}}&#8457; Max:{{model.main.temp_max | number:0}}&#8457;</h3>
+                    <h3>Min: {{model.main.temp_min | number:0}}&#8457;, Max: {{model.main.temp_max | number:0}}&#8457;</h3>
                 </div>
             </div>
         </div>
