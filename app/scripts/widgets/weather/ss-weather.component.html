@@ -1,17 +1,17 @@
 <div class="container">
     <div class="row">
-        <div class="col-md-4" ng-repeat="model in ssWeather.weatherData.list" ng-if="ssWeather.weatherData.list">
+        <div class="col-md-4 col-sm-4 col-xs-12" ng-repeat="model in ssWeather.weatherData.list" ng-if="ssWeather.weatherData.list">
             <h1 class="text-center">{{model.name}}</h1>
             <div class="row">
-                <div class="col-md-4 col-md-offset-2">
+                <div class="col-xs-4 col-xs-offset-2">
                     <img src="{{model.imageUrl}}">
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-6">
                     <h2>{{model.main.temp | number:0}}&#8457;</h2>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-xs-12 text-center">
                     <h3>Min: {{model.main.temp_min | number:0}}&#8457;, Max: {{model.main.temp_max | number:0}}&#8457;</h3>
                 </div>
             </div>
